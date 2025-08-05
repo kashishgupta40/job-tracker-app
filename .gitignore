@@ -1,0 +1,45 @@
+# === Node.js (job-tracker-backend) ===
+job-tracker-backend/node_modules/
+job-tracker-backend/.env
+
+# === React + Vite (job-tracker-frontend) ===
+job-tracker-frontend/node_modules/
+job-tracker-frontend/.env
+job-tracker-frontend/dist/
+job-tracker-frontend/.vite/
+
+# === Python / Django (resume-analyzer) ===
+resume-analyzer/env/
+resume-analyzer/__pycache__/
+resume-analyzer/*.pyc
+resume-analyzer/*.pyo
+resume-analyzer/*.pyd
+resume-analyzer/db.sqlite3
+resume-analyzer/media/
+
+# === VSCode Settings ===
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Coverage & testing ===
+coverage/
+*.cover
+*.coverage
+*.egg
+*.eggs
+*.pytest_cache/
+
+# === Python build ===
+*.py[cod]
+*.so
+*.orig
+
+# === Others ===
+*.bak
+*.swp
